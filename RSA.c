@@ -24,8 +24,6 @@ EE extended_euclid(int a, int b) {
 	}
 }
 
-// Copied from 
-// https://stackoverflow.com/questions/11720656/modulo-operation-with-negative-numbers
 int modulo(int x, int N){
     return (x % N + N) % N;
 }
